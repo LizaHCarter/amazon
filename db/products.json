@@ -1,0 +1,30 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"iPhone 5S",
+  "price":399.00,
+  "photo":"http://cdn1.mos.techradar.futurecdn.net//art/mobile_phones/iPhone/iPhone%205S/Press/5S%20fancy%20colors-623-80.jpg"
+}
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"iPad",
+  "price":499.00,
+  "photo":"https://www.apple.com/ipad-air/overview/images/desktop/design_hero.jpg"
+}
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"MacBook Air",
+  "price":899.00,
+  "photo":"http://store.storeimages.cdn-apple.com/4079/as-images.apple.com/is/image/AppleInc/aos/published/images/m/ac/macbook/air/macbook-air-gallery2-2014?wid=978&hei=580&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1400769248617"
+}
+{
+  "_id":{"$oid":"000000000000000000000004"},
+  "name":"MacBook Pro",
+  "price":1099.99,
+  "photo":"http://cnet2.cbsistatic.com/hub/i/r/2013/10/22/55d5c133-67c2-11e3-a665-14feb5ca9861/thumbnail/770x433/a213d9fd0156b9e63c7a14dfc75f033e/Apple_Macbook_Pro_15_35781448-4070.jpg"
+}
+{
+  "_id":{"$oid":"000000000000000000000005"},
+  "name":"Apple TV",
+  "price":99.00,
+  "photo":"http://ecx.images-amazon.com/images/I/51zjY8T4LAL._SX466_.jpg"
+}

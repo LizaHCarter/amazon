@@ -1,0 +1,19 @@
+extends ../shared/template
+block content
+  h2 Products
+  table.table.table-hover.table-bordered
+    thead
+      tr
+        th Product
+        th Photo
+        th Price
+    tbody
+      each product in products
+        tr
+          td
+            form(method='post', action='/cart')
+              input(type='hidden', name = 'productId', value=product._id)
+              button.btm.btn-info(type='submit')= product.name
+          td: a.thumbnail(href='#')
+            img(src=product.photo)
+          td $#{product.price}
