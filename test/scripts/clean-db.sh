@@ -8,4 +8,5 @@ fi
 mongoimport --jsonArray --drop --db $1 --collection examples --file ../../db/example.json
 mongoimport --jsonArray --drop --db $1 --collection users --file ../../db/users.json
 mongoimport --jsonArray --drop --db $1 --collection products --file ../../db/products.json
+mongoimport --jsonArray --drop --db $1 --collection gifts --file ../../db/gifts.json
 
